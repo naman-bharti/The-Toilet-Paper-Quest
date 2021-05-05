@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_background"
+    tools:context=".ui.Help">
+
+    <ImageView
+        android:id="@+id/help_title"
+        android:layout_width="253dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="229dp"
+        android:contentDescription="@string/help_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/help_button" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="639dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="35dp"
+        android:background="#F8F5F5"
+        android:backgroundTint="#FAF5F5"
+        android:text="@string/help_descrip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/help_title" />
+
+    <TextView
+        android:id="@+id/about_the_authors"
+        android:layout_width="639dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:background="#EDE7E7"
+        android:backgroundTint="#F1E7E7"
+        android:text="@string/this_app_has_been_created_by_ekam_hothi_and_naman_bharti_for_cmpt_276_course"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description" />
+
+    <TextView
+        android:id="@+id/resources"
+        android:layout_width="89dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="585dp"
+        android:layout_marginBottom="5dp"
+        android:background="#F3EFEF"
+        android:backgroundTint="#FAF4F4"
+        android:text="@string/resources"
+        app:layout_constraintBottom_toTopOf="@+id/resources_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_the_authors" />
+
+    <TextView
+        android:id="@+id/resources_list"
+        android:layout_width="639dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="39dp"
+        android:background="#F3EFEF"
+        android:backgroundTint="#FAF4F4"
+        android:text="@string/red_circle_used_in_the_game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resources" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

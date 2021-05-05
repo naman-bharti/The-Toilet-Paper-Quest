@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">The Toilet Paper Quest</string>
+    <string name="the_toilet_paper_quest">THE TOILET PAPER QUEST</string>
+    <string name="created_by_ekam_hothi_and_naman_bharti">Created by: Ekam Hothi and Naman Bharti</string>
+    <string name="go_to_main_menu">GO TO MAIN MENU</string>
+    <string name="play">PLAY</string>
+    <string name="options">OPTIONS</string>
+    <string name="help">HELP</string>
+    <string name="select_board_size">Select Board Size</string>
+    <string name="cross">"%1$d X %2$d"</string>
+    <string name="change">Change</string>
+    <string name="select_number_of_toilet_papers">Select Number Of Toilet Papers</string>
+    <string name="blank">%1$d </string>
+    <string name="scans_used">Scans used:</string>
+    <string name="_0">0</string>
+    <string name="toilet_papers">toilet papers.</string>
+    <string name="__0">0</string>
+    <string name="out_of">out of</string>
+    <string name="___0">0</string>
+    <string name="found">Found</string>
+    <string name="mm_title">mm_title</string>
+    <string name="select_board_size_2">select_board_size</string>
+    <string name="select_no_of_tp">select_no_of_tp</string>
+    <string name="options_title">options_title</string>
+    <string name="help_title">help_title</string>
+    <string name="help_descrip"> You were stuck at home for days and finally decide to go outside as you were about to run out of toilet paper at home, has that ever happened to you? Well we have all felt that pain (Unless you were the one who hoarded it) What better than can you do with this pain than making a game about it? Go around the stores looking for toilet papers. Could not find it in the store that you went to? No worries, our stores tell you how many stores in their rows and columns have it. Are we not just amazing? Finish by finding all the stores that have the toilet paper. The best part is that you get to choose how many stores have toilet paper and the number of stores in total too, check our options menu.</string>
+    <string name="this_app_has_been_created_by_ekam_hothi_and_naman_bharti_for_cmpt_276_course">This app has been created by Ekam Hothi and Naman Bharti for <a href = "https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home">CMPT 276</a> course.</string>
+    <string name="resources">Resources:</string>
+    <string name="red_circle_used_in_the_game"><a href = "https://images.app.goo.gl/kNouKa3aNqVGLrQ27"> Red circle</a>, <a href = "http://clipart-library.com/clipart/1683553.htm">green circle</a>, <a href = "https://images.app.goo.gl/wGnXa2t2FrvEeA6S8">background image</a>, <a href = "https://images.app.goo.gl/aDHvwGCDzEYM1NHV9">toilet paper image</a>, <a href = "https://images.app.goo.gl/vDmzXwqo48cg8816A">app icon</a>, <a href = "https://www.pinterest.ca/pin/46865652352571892/">store image</a>, <a href = "https://www.fontspace.com/category/toilet-paper">app font</a>, audio from Windows 10 media folder (Windows Unlock, Windows Recycle, Windows Pop-up blocked, town, tada, <a href = "https://www.pinclipart.com/pindetail/howJxx_toilet-paper-comments-toilet-paper-icon-transparent-clipart/"> welcome toilet paper image</a>, <a href = "https://images.app.goo.gl/V8XaLhMsZAHHcfNA7">congratulations image</a>, Windows notify.</string>
+</resources>
